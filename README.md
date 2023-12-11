@@ -7,10 +7,12 @@ This python notebook is used to evaluate the use of L-Systems as a source for sp
 
 Within the context of our musical collaboration, we created an audio patch that utilizes L-systems to define the parameters of a filter applied to the drums. In particular, frequency band levels of a 256 band spectral filter are defined by the results of an L-System. The patch takes integer text input generated from an L-system, and then maps it to spectral band amplitudes of the filter. A visual representation is also generated in the patch. There is also the ability to live code new L-systems, or any sequence for that matter, and send them via an OSC connection to the patch. Lastly, there exist preset L-System results that can be applied via a knob and three preset buttons. Enjoy and please send any feedback to: btice@ucsd.edu
 
-![Screen Shot 2023-12-06 at 1 17 34 PM](https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/8cbef907-5beb-4e8a-82a8-a9c6e0c4b71a)
+<img width="472" alt="Screen Shot 2023-12-11 at 10 41 27 AM" src="https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/7749a038-c4aa-4490-95c1-15d1e5ed528a">
+
 
 Credit must be given to CNMAT for their OSC max objects as well as to Zack Settel and Cort Lippe for their paper, "Real-Time Musical Applications using FFT-based Resynthesis", that inspired the Spectral Filter Max for Live patch that we modified for our work. 
 
-![Screen Shot 2023-12-06 at 1 18 16 PM](https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/6ebea4fc-f070-4a7c-bd80-25e9b8199840)
+<img width="992" alt="Screen Shot 2023-12-11 at 11 56 40 AM" src="https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/e65a0369-2ccd-4745-82d6-7e74a766938f">
+
 
 
