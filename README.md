@@ -1,4 +1,4 @@
-# L-Systems and Spectral Filtering in Ableton Live
+# L-Systems and Spectral Filtering
 
 ### Written by Brian Tice
 ### University of California, San Diego
