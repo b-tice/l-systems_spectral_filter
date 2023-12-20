@@ -7,7 +7,9 @@ This python notebook is used to evaluate the use of L-Systems as a source for sp
 
 Within the context of our musical collaboration, I created an audio patch that utilizes L-systems to define the parameters of a filter applied to the drums. In particular, spectral envelope levels of a 256 band spectral filter are defined by the results of an L-System. The patch takes integer text input generated from an L-system, and then maps it to spectral band amplitudes of the filter. A visual representation is also generated in the patch. There is also an ability to live code new L-systems, or any sequence for that matter, and send them via an OSC connection to the patch. Lastly, there exist preset L-System results that can be applied via a knob and three preset buttons. Enjoy and please send any feedback to: btice@ucsd.edu
 
-![Screen Shot 2023-12-20 at 2.14.30 PM.png](attachment:f2596e53-ba95-4185-98cf-b459a7615bdd.png)
+<img width="470" alt="Screen Shot 2023-12-20 at 2 14 30 PM" src="https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/8806d2f6-6b7a-49b8-a668-bf2c27783973">
+
+
 
 Credit must be given to CNMAT for their OSC max objects as well as to Zack Settel and Cort Lippe for their paper, "Real-Time Musical Applications using FFT-based Resynthesis", that inspired the Spectral Filter Max for Live patch that we modified for our work. 
 
@@ -15,7 +17,8 @@ Credit must be given to CNMAT for their OSC max objects as well as to Zack Sette
 
 The L-System works with a set of letters, called an alphabet consisting of the letters A through L. The algorithm then interprets production rules over the number of iterations, all starting from the declared axiom. Next, the output string is remapped to a series of integer values with a range of 0-127 because this is the range of a given freqency band level in the filter. In total, 256 integers are calulated in the sequence because this is the number of bands in the spectral filter. The mapping is currently linear between alphabet and integer representation, and is defined to be the following:
 
-![Screen Shot 2023-05-25 at 4.02.18 PM.png](attachment:08d1c9e2-67e5-4c2d-a2f5-46ccf33a4fa5.png)
+
+
 
 The code is written to be run sequentially in the notebook. 
 
@@ -135,7 +138,7 @@ for y in range(11):
     
 ```
 
-![Screen Shot 2023-12-20 at 2.15.42 PM.png](attachment:27b0c4f8-68e8-4117-847e-dc0b508ff01b.png)
+![Screen Shot 2023-12-20 at 2 15 42 PM](https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/fd029bfe-ddd1-47f9-abd9-e5dfcb1888bd)
 
 
 ```python
