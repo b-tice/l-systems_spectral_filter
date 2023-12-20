@@ -18,6 +18,7 @@ Credit must be given to CNMAT for their OSC max objects as well as to Zack Sette
 The L-System works with a set of letters, called an alphabet consisting of the letters A through L. The algorithm then interprets production rules over the number of iterations, all starting from the declared axiom. Next, the output string is remapped to a series of integer values with a range of 0-127 because this is the range of a given freqency band level in the filter. In total, 256 integers are calulated in the sequence because this is the number of bands in the spectral filter. The mapping is currently linear between alphabet and integer representation, and is defined to be the following:
 
 
+![image](https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/fcdf6fa9-c3f0-4a7e-a3d8-44dc52d1f9bc)
 
 
 The code is written to be run sequentially in the notebook. 
