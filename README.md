@@ -139,7 +139,8 @@ for y in range(11):
     
 ```
 
-![Screen Shot 2023-12-20 at 2 15 42 PM](https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/fd029bfe-ddd1-47f9-abd9-e5dfcb1888bd)
+![Screen Shot 2024-01-02 at 5 35 20 PM](https://github.com/b-tice/l-systems_spectral_filter/assets/120678973/02ef43a6-46e5-437b-abb2-56afc170d268)
+
 
 
 ```python
